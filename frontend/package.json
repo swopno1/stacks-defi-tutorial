@@ -6,6 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@stacks/connect": "^6.9.1",
+    "@stacks/network": "^4.3.2",
+    "@stacks/transactions": "^4.3.3",
+    "@tailwindcss/forms": "^0.5.2",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
