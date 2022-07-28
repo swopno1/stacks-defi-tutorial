@@ -11,6 +11,12 @@ plan:
         - contract-publish:
             contract-name: magic-beans
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            cost: 9550
+            cost: 10410
             path: contracts/magic-beans.clar
+            anchor-block-only: true
+        - contract-publish:
+            contract-name: beanstalk-exchange
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 41940
+            path: contracts/beanstalk-exchange.clar
             anchor-block-only: true
